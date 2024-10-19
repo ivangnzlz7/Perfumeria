@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(52, 52, 53);
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: 16px 22px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.marca {
+    font-size: 1.6rem;
+    padding: 0 0 0 16px;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 30%;
+    max-height: 500px;
+    outline: 1px solid rgb(80, 77, 77);
+    margin: 50px 0;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 10px rgba(119, 117, 117, 0.897), -4px -4px 10px rgba(119, 119, 119, 0.897);
+}
+
+form section {
+   display: flex;
+   flex-direction: column;
+
+}
+
+#boton {
+    width: 70px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 0 0 10px 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#boton:hover {
+    background-color:  rgb(52, 52, 53);
+    color: white;
+}
+
+form textarea {
+    max-width: 250px;
+    min-width:250px;
+    min-height: 50px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+section input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+section label {
+    padding: 10px 0 6px 6px;
+}
+
+/* Responsive */
+
+@media(width < 830px){
+    main form textarea {
+        min-width: 100%;
+    }
+
+    main form {
+        max-width: 80%;
+    }
+
+    .nav li {
+        padding: 14px;
+    }
+}
