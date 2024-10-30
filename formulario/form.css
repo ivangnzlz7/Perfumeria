@@ -38,10 +38,11 @@ a{
     color: white;
 }
 
-.marca {
+.marca a{
     font-size: 1.6rem;
     padding: 0 0 0 16px;
     color: white;
+    list-style: none;
 }
 
 #carrito {
