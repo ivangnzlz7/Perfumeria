@@ -49,6 +49,14 @@ main h1 {
     padding-top: 20px;
 }
 
+#carrito {
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+}
+
 .primero article img,
 .segundo article img,
 .tercero article img,
@@ -76,14 +84,44 @@ main h1 {
 .segundo article, 
 .tercero article,
 .cuarto article{
-    height: 250px;
-    outline: 1px solid gray;
+    height: 330px;
+    outline: 1px solid transparent;
     border-radius: 6px;
     width: 200px;
     box-shadow: 4px 4px 10px rgba(65, 63, 63, 0.897), -4px -4px 10px rgba(119, 117, 117, 0.897);
     min-width: 100px;
     transition: transform 0.4s ease-in-out;
+}
+
+section article button {
+    width: 100px;
+    height: 34px;
+    border: none;
+    outline: 2px solid rgb(52, 52, 53);
+    border-radius: 6px;
+    font-size: 1.2rem;
+    color: rgb(52, 52, 53);
     cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, outline 0.4s ease-in-out;
+}
+
+section article button:hover {
+    background-color: rgb(52, 52, 53);
+    color: white;
+    outline: 2px solid transparent;
+}
+
+section article p {
+    font-size: 18px;
+}
+
+section article {
+    text-align: center;
+}
+
+section article h2 {
+    font-size: 1.8rem;
 }
 
 .primero article:hover,
@@ -93,14 +131,6 @@ main h1 {
     transform: translateY(-10px);
 }
 
-
-.primero article h2,
-.segundo article h2,
-.tercero article h2,
-.cuarto article h2 {
-    text-align: center;
-    font-size: 18px;
-}
 
 /* Reseñas */
 main section:last-child h3{
@@ -135,4 +165,14 @@ main section:last-child h3{
     margin-left: 14px;
 }
 
+@media(width < 460px) {
+    header nav {
+        display: none;
+    }
+
+    header #menu {
+        display: block;
+        padding-right: 20px;
+    }
+}
 
