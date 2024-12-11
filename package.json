@@ -1,0 +1,28 @@
+{
+  "name": "talen-tech-proyect",
+  "version": "1.0.0",
+  "description": "Pagina en donde podras encontrar los mejores precios de perfumes y ofertas cada semana",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangnzlz7/tienda-perfume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivangnzlz7/tienda-perfume/issues"
+  },
+  "homepage": "https://github.com/ivangnzlz7/tienda-perfume#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49"
+  }
+}

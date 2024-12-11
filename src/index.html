@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- letra en la mayoria -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Perfumeria</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="shortcut icon"
+      href="/public/image/icon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="marca">essences of life</h2>
+      <nav>
+        <ul class="nav">
+          <li>Inicio</li>
+          <li><a href="/src/products/products.html">Productos</a></li>
+        </ul>
+      </nav>
+      <img src="/public/image/NimbusMenu.svg" alt="Menu" id="menu" />
+    </header>
+    <main>
+      <section class="inicial">
+        <h1 class="text-black">Esencias De <span>Vida</span></h1>
+        <img
+          src="/public/image/publicidad/publi5.jpeg"
+          alt="publicidad"
+          id="publi5"
+        />
+      </section>
+      <section class="content">
+        <h2>
+          Cada aroma te <span>transmite</span> a lugares y recuerdos
+          <span>especiales</span>
+        </h2>
+        <img
+          src="/public/image/publicidad/publi2.jpeg"
+          alt="publicidad"
+          id="publi2"
+        />
+      </section>
+      <section>
+        <h2 class="text-3xl text-center my-16 uppercase text-[#343435]">
+            Los mejores del mes
+        </h2>
+        <section class="carousel">
+          <section class="carousel-inner">
+          </section>
+          <!-- Botones para navegar -->
+          <button class="carousel-control prev" onclick="prevSlide()">
+            <img
+              src="/public/image/MaterialSymbolsArrowCircleLeftRounded.svg"
+              alt="izquierda"
+            />
+          </button>
+          <button class="carousel-control next" onclick="nextSlide()">
+            <img
+              src="/public/image/MaterialSymbolsArrowCircleRight.svg"
+              alt="derecha"
+            />
+          </button>
+        </section>
+      </section>
+      <section class="content2">
+        <h2>
+          La fragancia <span>perfecta</span> no se elige, se <span>siente</span>
+        </h2>
+        <img src="/public/image/publicidad/publi6.jpeg" alt="publicidad" />
+      </section>
+      <section class="content3">
+        <h2 class="text-4xl font-serif">
+          Perfumes que reflejan tu <span>esencia</span> y
+          <span>personalidad</span>
+        </h2>
+        <img src="/public/image/publicidad/publi.jpeg" alt="publicidad" />
+      </section>
+      <section
+        class="text-center flex flex-col 
+        place-content-center max-[750px]:rounded-3xl 
+        bg-[url('/public/image/publicidad/publi3.jpeg')] 
+        bg-no-repeat bg-center bg-cover w-full h-96"
+      >
+        <p
+          class="text-4xl text-white my-6
+          font-serif leading-snug max-[550px]:text-3xl 
+          "
+        >
+          Descubre el aroma perfecto para cada momento
+        </p>
+        <a
+          href="/src/products/products.html"
+          class="text-white text-sm w-40
+          h-10 pt-2 mt-20 mx-auto hover:outline
+        hover:border-white hover:rounded-md
+        hover:text-gray-300 transition ease-in-out 
+          duration-500 "
+          >Ver Productos</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <section
+        class="flex flex-row justify-center items-center bg-gray-600 max-[750px]:flex-col"
+      >
+        <h1
+          class="text-4xl text-white m-auto max-w-xl leading-normal max-[750px]:pt-8 max-[750px]:text-center"
+        >
+          Puede dejar un mensaje preguntando lo que usted quiere
+        </h1>
+
+        <form
+          action="https://formspree.io/f/mbljjbab"
+          method="post"
+          autocomplete="on"
+          class="w-64 outline-1 outline outline-white bg-white my-12 mx-auto rounded-md max-h-full"
+        >
+          <section class="flex flex-col">
+            <label for="nombre" class="pl-4 pb-2 pt-2 text-gray-600"
+              >Nombre:</label
+            >
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre"
+              class="border border-gray-400 rounded-lg focus-visible:outline focus-visible:outline-gray-700 pl-2 transition ease-in-out duration-500 h-7 min-w-56 my-0 mx-auto"
+              required
+            />
+          </section>
+          <br />
+          <section class="flex flex-col">
+            <label for="email" class="pl-4 pb-2 text-gray-600">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="border border-gray-400 rounded-lg focus-visible:outline focus-visible:outline-gray-700 pl-2 transition ease-in-out duration-500 h-7 w-40 min-w-56 my-0 mx-auto"
+              required
+            />
+          </section>
+          <br />
+          <section class="flex flex-col">
+            <label for="message" class="pl-7 pb-2 text-gray-600"
+              >Mensaje:</label
+            >
+            <textarea
+              name="message"
+              id="message"
+              placeholder="dejanos tu consulta"
+              class="border border-gray-400 rounded-lg transition duration-500 ease-in-out focus-visible:outline focus-visible:outline-gray-700 pl-2 my-0 mx-auto max-w-52 min-w-52 min-h-12 max-h-20"
+              required
+            ></textarea>
+          </section>
+          <br />
+          <br />
+          <input
+            type="submit"
+            id="boton"
+            placeholder="Enviar"
+            class="w-20 h-8 border ml-7 mb-6 rounded-md border-black border-solid cursor-pointer hover:bg-gray-600 hover:text-white transition ease-in-out duration-500"
+          />
+        </form>
+        <br />
+      </section>
+      <hr />
+      <section class="info">
+        <section>
+          <h2 class="text-4xl">Essences of life</h2>
+        </section>
+        <section>
+          <nav>
+            <ul>
+              <li class="text-xl my-3">
+                <a href="/src/products/products.html">Productos</a>
+              </li>
+              <li class="text-xl my-3">
+                <a href="/src/products/products.html#comment">Reseñas</a>
+              </li>
+            </ul>
+            <section class="flex flex-row justify-end gap-5 my-10">
+              <a href="https://www.facebook.com/" title="facebook">
+                <img
+                  src="/public/image/UilFacebook (1).svg"
+                  alt="Logo de facebook"
+                  width="26"
+                  height="26"
+                />
+              </a>
+              <a href="https://www.instagram.com/" title="instagram">
+                <img
+                  src="/public/image/SkillIconsInstagram.svg"
+                  alt="Logo de Instagram"
+                  width="26"
+                  height="26"
+                />
+              </a>
+              <a href="https://web.telegram.org/a/" title="telegram">
+                <img
+                  src="/public/image/LogosTelegram.svg"
+                  alt="Logo de Telegram"
+                  width="26"
+                  height="26"
+                />
+              </a>
+            </section>
+          </nav>
+        </section>
+      </section>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

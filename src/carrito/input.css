@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(52, 52, 53);
+    height: 80px;
+    top: 0;
+    position: sticky;
+    z-index: 30;
+}
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: 16px 22px;
+    color: white;
+    min-width: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.marca a {
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 0 0 0 16px;
+    color: white;
+}
+
+#menu{
+    display: none;
+}
+
+
+#carrito2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: black;
+    background-color: white;
+    z-index: 20;
+    margin: 26px auto 0 auto;
+    border: 1px solid rgb(41, 40, 40);
+    border-radius: 8px;
+    min-height: 450px;
+    min-width: 350px;
+    width: 60%;
+    overflow: auto;
+}
+
+#lista-carrito{
+    color: black;
+}
+
+#lista-carrito tr td,
+#lista-carrito tr th {
+    padding: 16px 28px;
+    text-align: start;
+}
+
+#vaciar-carrito{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 30px 0 30px 30px;
+    min-height: 24px;
+    min-width: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.borrar-producto{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+/* Responsive */
+
+@media(width < 505px){
+
+    header #menu {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        flex-direction: column;
+        row-gap: 16px;
+        top: 0;
+        right: 0;
+        height: 980px;
+        background-color:  rgb(36, 35, 35);
+        padding: 30px 28px 30px 40px;
+        align-items: end;
+        transition: ease-in-out 300ms;
+    }
+
+    .visible {
+        opacity: 0.9;
+        visibility: visible;
+    }
+
+}

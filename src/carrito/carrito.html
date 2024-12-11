@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css">
+    <title>Carrito de compras</title>
+    <link rel="shortcut icon" href="/public/image/icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <h2 class="marca"><a href="/src/index.html">essences of life</a></h2>
+    <nav>
+        <ul class="nav">
+            <li><a href="/src/index.html">Inicio</a></li>
+            <li><a href="/src/products/products.html">Productos</a></li>
+        </ul>
+    </nav>
+      <img src="/public/image/NimbusMenu.svg" alt="menu" id="menu" />
+    </header>
+
+    <main>
+      <section id="carrito2">
+        <table id="lista-carrito">
+            <!--
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                  </tr>
+                </thead>
+            -->
+            <tr class="col">
+                <th>Imagen</th>
+              </tr>
+              <tr class="col2">
+                <th>Nombre</th>
+              </tr>
+              <tr class="col3">
+                <th>Precio</th> 
+            </tr>
+            <tr class="col4">
+                <th>Cantidad</th> 
+            </tr>
+        </table>
+        <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+      </section>
+    </main>
+
+    <script src="carrito.js"></script>
+  </body>
+</html>

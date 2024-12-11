@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>productos</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/public/image/icon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="marca"><a href="/src/index.html">essences of life</a></h2>
+      <nav>
+        <ul class="nav">
+          <li><a href="/src/index.html">Inicio</a></li>
+          <li>Productos</li>
+          <li>
+            <a href="/src/carrito/carrito.html">
+              <img
+                src="/public/image/MdiCart.svg"
+                alt="carrito"
+                height="30"
+                width="30"
+                id="carrito"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <img src="/public/image/NimbusMenu.svg" alt="menu" id="menu" />
+    </header>
+
+    <main>
+      <h1 class="text-4xl text-center pt-6">Todos los productos</h1>
+      <br />
+      <br />
+      <section class="flex flex-col text-center relative">
+        <label for="search" class="pb-3 text-2xl"
+          >Busca Por Nombre, Categoria o Precio:</label
+        >
+        <input
+          id="search"
+          type="text"
+          name="search"
+          class="max-w-60 min-w-44 h-8 mx-auto rounded-lg
+                border border-gray-700 text-lg bg-[url('/public/image/CharmSearch.svg')] 
+                bg-auto bg-no-repeat bg-right"
+          autocomplete="on"
+        />
+      </section>
+      <br />
+      <br />
+      <section class="primero">
+      </section>
+      <section id="comment">
+        <h3>Reseñas de nuestros productos:</h3>
+        <section class="op">
+          <img src="/public/image/bx-user.svg" alt="usuario" />
+          <p>
+            Por favor que genial está. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Ab aperiam, assumenda sint asperiores sequi rem
+            veniam corrupti provident illum tenetur beatae, odit quos
+            perferendis quia illo est? Tempora, recusandae aut.
+          </p>
+        </section>
+        <section class="user">
+          <img src="/public/image/bx-user.svg" alt="usuario" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+            aperiam, assumenda sint asperiores sequi rem veniam corrupti
+            provident illum tenetur beatae, odit quos perferendis quia illo est?
+            Tempora, recusandae aut.
+          </p>
+        </section>
+        <section class="user2">
+          <img src="/public/image/bx-user.svg" alt="usuario" />
+          <p>
+            consectetur adipisicing elit. Ab aperiam, assumenda sint asperiores
+            sequi rem veniam corrupti provident illum tenetur beatae, odit quos
+            perferendis quia illo est? Tempora, recusandae aut.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <script src="products.js"></script>
+  </body>
+</html>

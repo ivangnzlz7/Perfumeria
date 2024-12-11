@@ -1,0 +1,253 @@
+[
+    {
+        "id": 1,
+        "nombre": "Azzaro  The Most Wanted Eau de Parfum",
+        "categoria": "Hombre",
+        "precio": 190000,
+        "image": "/public/image/P-hombre/Azzaro  The Most Wanted Eau de Parfum 100 ml.jpeg",
+        "cantidad": 5,
+        "descripcion": "Es un perfume considerado uno de los mejores por su calidad y aroma. Además, se destaca por su estilo similar a otros perfumes reconocidos, siendo potente y agradable."
+      },
+      {
+        "id": 2,
+        "nombre": "Be edt",
+        "categoria": "Hombre",
+        "precio": 150000,
+        "image": "/public/image/P-hombre/Be edt 50 ml.jpeg",
+        "cantidad": 10,
+        "descripcion": " Una fragancia unisex que te atrae. Esta fragancia incluye un atractivo almizcle aromático completado con una mezcla simple de hierbas, cítricos y flores."
+      },
+      {
+        "id": 3,
+        "nombre": "BAD BOY",
+        "categoria": "Hombre",
+        "precio": 170000,
+        "image": "/public/image/P-hombre/CAROLINA HERRERA BAD BOY EDP EXTREME 100ML.jpeg",
+        "cantidad": 7,
+        "descripcion": "una fragancia masculina que pertenece a la familia olfativa Ámbar. Diseñada especialmente para hombres que buscan marcar su presencia con un aroma único y distintivo"
+      },
+      {
+        "id": 4,
+        "nombre": "Dior Sauvage",
+        "categoria": "Hombre",
+        "precio": 180000,
+        "image": "/public/image/P-hombre/Dior Sauvage Elixir - 2 oz_.jpeg",
+        "cantidad": 6,
+        "descripcion": "es una composición rotundamente fresca que irradia una masculinidad verdadera e inconfundible, cruda y noble a la vez"
+      },
+      {
+        "id": 5,
+        "nombre": "Versace",
+        "categoria": "Hombre",
+        "precio": 180000,
+        "image": "/public/image/P-hombre/Seleccionamos los mejores perfumes para hombres según su personalidad.jpeg",
+        "cantidad": 9,
+        "descripcion": "te transportará a un universo de elegancia y sofisticación. Con notas olfativas de hojas de menta, cáscara de limón italiano y manzana verde"
+      },
+      {
+        "id": 6,
+        "nombre": " Gentleman givenchy",
+        "categoria": "Hombre",
+        "precio": 200000,
+        "image": "/public/image/P-hombre/The Best Perfumes for Men in 2024 - Orlando Magazine.jpeg",
+        "cantidad": 5,
+        "descripcion": "fragancia intensa con un alto nivel de concentración."
+      },
+      {
+        "id": 7,
+        "nombre": "Dolce & Gabbana",
+        "categoria": "Hombre",
+        "precio": 140000,
+        "image": "/public/image/P-hombre/THE ONE FOR MEN edp 100 ml.jpeg",
+        "cantidad": 6,
+        "descripcion": "una fragancia que encarna la elegancia masculina"
+      },
+      {
+        "id": 8,
+        "nombre": "Valentino uomo",
+        "categoria": "Hombre",
+        "precio": 160000,
+        "image": "/public/image/P-hombre/valentino.jpeg",
+        "cantidad": 12,
+        "descripcion": "fragancia aromática amaderada de vetiver. Una faceta fresca y vibrante de sal mineral y jengibre especiado retuerce la firma clásica de salvia aromática y vetiver ahumado"
+      },
+      {
+        "id": 9,
+        "nombre": "Yves Saint Laurent",
+        "categoria": "Hombre",
+        "precio": 190000,
+        "image": "/public/image/P-hombre/Yves Saint Laurent  Y Eau de Parfum 100ml.jpeg",
+        "cantidad": 9,
+        "descripcion": "fragancia de la familia olfativa aromática fougère para hombres"
+      },
+      {
+        "id": 10,
+        "nombre": "Made Moiselle",
+        "categoria": "Mujer",
+        "precio": 170000,
+        "image": "/public/image/P-mujer/27 perfumes de mujer para acertar seguro en el Día de la Madre.jpeg",
+        "cantidad": 8,
+        "descripcion": "aroma oriental amaderado ambarino que combina a la perfección notas de salida de naranja de Sicilia y bergamota de Calabria, aportando frescura y vitalidad"
+      },
+      {
+        "id": 11,
+        "nombre": "Club de nuit",
+        "categoria": "Mujer",
+        "precio": 200000,
+        "image": "/public/image/P-mujer/nuit.jpeg",
+        "cantidad": 5,
+        "descripcion": "fragancia de la familia olfativa Amaderada Especiada"
+      },
+      {
+        "id": 12,
+        "nombre": "Blacks XS",
+        "categoria": "Mujer",
+        "precio": 160000,
+        "image": "/public/image/P-mujer/Black Xs For Her Rabanne Perfume Feminino - Eau De Parfum.jpeg",
+        "cantidad": 15,
+        "descripcion": "te envolverá en una fragancia floral frutal única, perfecta para mujeres modernas y sofisticadas"
+      },
+      {
+        "id": 13,
+        "nombre": "Valentino",
+        "categoria": "Mujer",
+        "precio": 210000,
+        "image": "/public/image/P-mujer/Donna Born in Roma Eau De Parfum.jpeg",
+        "cantidad": 10,
+        "descripcion": "es una fragancia aromática amaderada de vetiver"
+      },
+      {
+        "id": 14,
+        "nombre": "Monogram",
+        "categoria": "Mujer",
+        "precio": 190000,
+        "image": "/public/image/P-mujer/Elegant Monogram logo for Queen’s Perfume.jpeg",
+        "cantidad": 15,
+        "descripcion": "fragancia para una generación de mujeres jóvenes. En una colorida y floral fragancia"
+      },
+      {
+        "id": 15,
+        "nombre": "GUCCI Guilty ",
+        "categoria": "Mujer",
+        "precio": 190000,
+        "image": "/public/image/P-mujer/GUCCI Guilty For Her Eau De Toilette - Multi.jpeg",
+        "cantidad": 13,
+        "descripcion": "es la combinación perfecta entre ingredientes que se potencian entre sí y hacen que sea posible trasladarnos a lugares únicos. Disfruta de esta fragancia en todo momento"
+      },
+      {
+        "id": 16,
+        "nombre": "212 Sexy",
+        "categoria": "Mujer",
+        "precio": 200000,
+        "image": "/public/image/P-mujer/Perfume 212 Sexy 30ml Fem Edp Carolina Herrera.jpeg",
+        "cantidad": 8,
+        "descripcion": "Notas de jazmín Sambac, cedro, labdanum, verde Accord, peonía, café Azúcar Accord acuáticas, hojas de menta, pimienta rosa, color amarillo Primo Fiore"
+      },
+      {
+        "id": 17,
+        "nombre": "My Way",
+        "categoria": "Mujer",
+        "precio": 230000,
+        "image": "/public/image/P-mujer/Perfume Giorgio Armani My Way Mujer Edp 50 Ml_.jpeg",
+        "cantidad": 8,
+        "descripcion": " fragancia floral única y cautivadora que te acompañará en cada paso de tu camino. Diseñado especialmente para mujeres modernas y audaces"
+      },
+      {
+        "id": 18,
+        "nombre": "Prada",
+        "categoria": "Mujer",
+        "precio": 190000,
+        "image": "/public/image/P-mujer/Prada - Paradoxe Intense Recargable Perfume Para Mujer 50 Ml.jpeg",
+        "cantidad": 5,
+        "descripcion": "fragancia intensa con un alto nivel de concentración. A diferencia del eau de toilette, se recomienda para el invierno y las noches interminables, ya que dura muchas horas en la piel"
+      },
+      {
+        "id": 19,
+        "nombre": "Shiseido - Ginza ",
+        "categoria": "Mujer",
+        "precio": 200000,
+        "image": "/public/image/P-mujer/Shiseido - Ginza Eau De Parfum Mujer 90 Ml.jpeg",
+        "cantidad": 14,
+        "descripcion": "la combinación perfecta de ingredientes potenciados entre sí y que nos permiten viajar a lugares únicos. Disfruta de esta fragancia en todo momento"
+      },
+      {
+        "id": 20,
+        "nombre": "Minnie Mouse",
+        "categoria": "Chicos",
+        "precio": 150000,
+        "image": "/public/image/p-niños/Disney Minnie Mouse Children 3_4 OZ EAU DE Toilette Spray BOX by Disney, Multicolor.jpeg",
+        "cantidad": 10,
+        "descripcion": "Perfume Infantil Minnie"
+      },
+      {
+        "id": 21,
+        "nombre": "Just shine",
+        "categoria": "Chicos",
+        "precio": 130000,
+        "image": "/public/image/p-niños/Girls Accessories.jpeg",
+        "cantidad": 13,
+        "descripcion": "La fragancia de colonia Just Shine ofrece la frescura perfecta para los días calurosos. Debido a que se caracteriza por sus aromas ligeros, puedes usar todo lo que quieras sin miedo a exagerar"
+      },
+      {
+        "id": 22,
+        "nombre": "Castle Princess",
+        "categoria": "Chicos",
+        "precio": 120000,
+        "image": "/public/image/p-niños/Kit de 2 piezas perfume juvenil 50 ML + un llavero en forma de oso de fragancia dulce y frutal, consiente a los mas pequeños de la casa con este set en color rosa y amarillo perfecto para regalar en cualquier ocasión_.jpeg",
+        "cantidad": 5,
+        "descripcion": "la combinación perfecta entre ingredientes que se potencian entre sí y hacen que sea posible trasladarnos a lugares únicos. Disfruta de esta fragancia en todo momento"
+      },
+      {
+        "id": 23,
+        "nombre": "Cars",
+        "categoria": "Chicos",
+        "precio": 140000,
+        "image": "/public/image/p-niños/Los 10 Mejores Perfumes Para Niños.jpeg",
+        "cantidad": 12,
+        "descripcion": "la combinación perfecta entre ingredientes que se potencian entre sí y hacen que sea posible trasladarnos a lugares únicos. Disfrutá de esta fragancia en todo momento"
+      },
+      {
+        "id": 24,
+        "nombre": "Avengers",
+        "categoria": "Chicos",
+        "precio": 140000,
+        "image": "/public/image/p-niños/Parfymset Barn Capitán América EDT 2 Delar.jpeg",
+        "cantidad": 18,
+        "descripcion": "podrás refrescar e hidratar tu piel en cualquier momento del día con un aroma suave y fresco que te hará sentir como si recién salieras de la ducha"
+      }, {
+        "id": 25,
+        "nombre": "Disney",
+        "categoria": "Chicos",
+        "precio": 120000,
+        "image": "/public/image/p-niños/Smell like an apple.jpeg",
+        "cantidad": 10,
+        "descripcion": "diseñado especialmente para los más pequeños.Una fragancia dulce y suave"
+      },
+      {
+        "id": 26,
+        "nombre": "Baby Tous",
+        "categoria": "Chicos",
+        "precio": 120000,
+        "image": "/public/image/p-niños/tous.jpeg",
+        "cantidad": 8,
+        "descripcion": "Familia olfativa Floral Frutal para Hombres y Mujeres. Con alcohol"
+      },
+      {
+        "id": 27,
+        "nombre": "Ray",
+        "categoria": "Chicos",
+        "precio": 120000,
+        "image": "/public/image/p-niños/Unique Beauty & Makeup Accessories _ BoxLunch.jpeg",
+        "cantidad": 10,
+        "descripcion": "El secreto de los mejores perfumes es la combinación perfecta entre ingredientes que se potencian entre sí y hacen que sea posible trasladarnos a lugares únicos. Disfrutá de esta fragancia en todo momento"
+      },
+      {
+        "id": 28,
+        "nombre": "Hello kitty",
+        "categoria": "Chicos",
+        "precio": 120000,
+        "image": "/public/image/p-niños/Wordless Wednesday - Sanrio Hello Kitty Items.jpeg",
+        "cantidad": 8,
+        "descripcion": "Con este alegría podrás refrescar e hidratar tu piel en cualquier momento del día con un aroma suave y fresco que te hará sentir como si recién salieras de la ducha"
+      }
+]
