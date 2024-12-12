@@ -75,14 +75,33 @@ a{
     text-align: start;
 }
 
+#lista-carrito tr img {
+    cursor: pointer;
+    background-color: rgb(52, 52, 53);
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#lista-carrito tr img:hover {
+    background-color: rgb(93, 93, 95);
+}
+
 #vaciar-carrito{
-    border: 1px solid black;
     border-radius: 6px;
+    background-color: rgb(52, 52, 53);
     margin: 30px 0 30px 30px;
-    min-height: 24px;
-    min-width: 100px;
-    color: black;
+    min-height: 28px;
+    min-width: 120px;
+    color: white;
     text-decoration: none;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+#vaciar-carrito:hover{
+    background-color: white;
+    color: rgb(52, 52, 53);
+    font-size: 1.1rem;
 }
 
 

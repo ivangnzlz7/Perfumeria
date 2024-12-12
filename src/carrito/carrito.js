@@ -75,10 +75,16 @@ function productosLoaded(){
         `
         columna4.innerHTML = `
                             ${cantidad}
-                            <a href="#" class="borrar-producto" data-id="${id}">X</a>
+                            <img 
+                            src="/public/image/MingcuteCloseFill.svg" 
+                            class="borrar-producto" 
+                            data-id="${id}"
+                            width="22"
+                            height="22"
+                            />
         `
 
-
+ 
         // Agregar en el cuerpo de la tabla
         col.appendChild(columna);
         col2.appendChild(columna2);
