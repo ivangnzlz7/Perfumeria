@@ -77,13 +77,8 @@ a{
 
 #lista-carrito tr img {
     cursor: pointer;
-    background-color: rgb(52, 52, 53);
     border-radius: 50%;
     transition: background-color 0.5s ease-in-out;
-}
-
-#lista-carrito tr img:hover {
-    background-color: rgb(93, 93, 95);
 }
 
 #vaciar-carrito{
@@ -109,6 +104,12 @@ a{
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
+}
+
+/* Suma de los productos */
+
+.total {
+    margin: 10px 0 16px 28px;
 }
 
 

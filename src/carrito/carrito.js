@@ -3,6 +3,7 @@ const vaciarCarrito = document.querySelector('#vaciar-carrito');
 const main = document.querySelector('main');
 const menu = document.querySelector('#menu');
 const navegacion = document.querySelector('nav .nav');
+const productoFinal = document.querySelector('.total');
 let col = document.querySelector('.col');
 let col2 = document.querySelector('.col2');
 let col3 = document.querySelector('.col3');
@@ -29,6 +30,7 @@ function carOperation(){
             products = [];
             sincronizarStorage();
             limpiarCarrito();
+            limpiarPrecio();
             setTimeout(() => {
                 alert('La operacion fue exitosa');
             }, 1000)
@@ -43,6 +45,7 @@ function carOperation(){
 
 function productosLoaded(){
     let check = products.every(producto => producto === false);
+    let cantidadSum = 0;
     
     if (check) {
         console.log('Arreglo vacio');
@@ -76,14 +79,16 @@ function productosLoaded(){
         columna4.innerHTML = `
                             ${cantidad}
                             <img 
-                            src="/public/image/MingcuteCloseFill.svg" 
+                            src="/public/image/FxemojiWastebasket.svg" 
                             class="borrar-producto" 
                             data-id="${id}"
-                            width="22"
-                            height="22"
+                            width="28"
+                            height="28"
                             />
         `
 
+        // Sumamos la cantidad
+        cantidadSum += Number(precio.slice(1)) * cantidad;
  
         // Agregar en el cuerpo de la tabla
         col.appendChild(columna);
@@ -93,6 +98,12 @@ function productosLoaded(){
 
         
     });
+    limpiarPrecio()
+    const sumaTot = document.createElement('h2');
+    sumaTot.innerHTML = `Total: $${cantidadSum}`
+
+    productoFinal.appendChild(sumaTot)
+    
     sincronizarStorage();
 }
 
@@ -133,5 +144,11 @@ function limpiarCarrito() {
         col2.removeChild(col2.lastChild);
         col3.removeChild(col3.lastChild);
         col4.removeChild(col4.lastChild);
+    }
+}
+
+function limpiarPrecio() {
+    while(document.querySelectorAll('.total h2').length > 0){
+        productoFinal.removeChild(productoFinal.lastChild);
     }
 }

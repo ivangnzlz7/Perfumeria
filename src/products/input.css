@@ -171,7 +171,6 @@ section article {
     transform: translateY(-10px);
     opacity: 0.6;
 }
-
 /* Focus */
 
 .overlay {
@@ -247,8 +246,10 @@ main section:last-child h3{
 
 @media(width < 550px) {
     .overlay {
-        height: 550px;
-        top: 16%;
+        top: 30%;
+        width: 72%;
+        right: 20%;
+        left: 14%; 
     }
 }
  
