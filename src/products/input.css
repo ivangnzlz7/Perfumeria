@@ -142,7 +142,7 @@ section article button {
     color: rgb(52, 52, 53s);
     cursor: pointer;
     margin-bottom: 20px;
-    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, outline 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, outline 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
 section article button:hover {
@@ -168,7 +168,7 @@ section article {
 }
 
 .primero article:hover{
-    transform: translateY(-10px);
+    transform: scale(1.1);
     opacity: 0.6;
 }
 /* Focus */
