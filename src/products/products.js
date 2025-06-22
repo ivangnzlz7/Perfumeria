@@ -10,7 +10,7 @@ const navegacion = document.querySelector('nav .nav');
 let productosCarrito = [];
 
 
-loadedEventListeners();
+loadedEventListeners(); 
 function loadedEventListeners() {
     //Carga los productos
     window.addEventListener('DOMContentLoaded', colection);
@@ -36,6 +36,7 @@ function loadedEventListeners() {
     productosCarrito = JSON.parse(localStorage.getItem('carrito')) || []
     carritoHTML();
 }
+
 
 //Agregar Producto
 function agregarProducto(e) {

@@ -16,6 +16,7 @@ function carOperation(){
     menu.addEventListener('click', () => {
         navegacion.classList.add('visible');
     })
+    
 
     main.addEventListener('click', () => {
         navegacion.classList.remove('visible');

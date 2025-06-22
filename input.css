@@ -58,7 +58,7 @@ a{
     padding: 0 0 0 16px;
     color: white;
 }
-
+ 
 #carrito {
     cursor: pointer;
 }
@@ -66,6 +66,7 @@ a{
 #publi5 {
     max-width: 500px;
     height: 500px;
+    border-bottom-left-radius: 8px;
 }
 
 .inicial{
@@ -73,6 +74,8 @@ a{
     flex-direction: row-reverse;
     justify-content: start;
     background-image: linear-gradient(to bottom, #A7A8A2, #9FA29B);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .inicial h1 {
@@ -84,13 +87,16 @@ a{
 #publi2 {
     max-width: 400px;
     height: 500px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image:  linear-gradient(to left,  #1C2A27, #5e867e) 
+    background-image:  linear-gradient(to left,  #1C2A27, #5e867e);
+    border-radius: 8px;
 }
 
 .content h2 {
@@ -105,13 +111,16 @@ a{
 .content2 img {
     max-width: 400px;
     height: 500px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .content2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    background-image:  linear-gradient(to right,  #868685, #ececea) 
+    background-image:  linear-gradient(to right,  #868685, #ececea);
+    border-radius: 8px;
 }
 
 .content2 h2 {
@@ -125,13 +134,16 @@ a{
 .content3 img {
     max-width: 400px;
     height: 500px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .content3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image:  linear-gradient(to left,  #333231, #7a7a7a) 
+    background-image:  linear-gradient(to left,  #333231, #7a7a7a);
+    border-radius: 8px;
 }
 
 .content3 h2 {
